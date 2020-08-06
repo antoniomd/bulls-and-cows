@@ -1,2 +1,2 @@
 token = 'mytoken'       # token del bot
-chat_id = 'mychastid'   # Chat ID de prueba
+chat_id = 'mychatID'    # Chat ID de prueba

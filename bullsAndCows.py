@@ -1,11 +1,23 @@
-""" 
-Hombre Muerto Hombre Herido
-Un número de cuatro cifras que no se repitan
-Si se acierta un número y su posición es un hombre muerto
-Si se acierta un número pero no su posición es un hombre herido
-"""
-
 #! /usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""
+bullsAndCowsBot.py
+
+The script generates a 4-digits number. The digits must be all different.
+
+Then the player try to guess the number who gives the number of matches.
+If the matching digits are in their right positions, they are "bulls"
+("muertos" in this version), if in different positions, they are "cows"
+("heridos" in this version).
+
+Usage:
+Clone the repository.
+
+Modify auth.py with you Telegram Bot configuration if you want to use the Telegram version.
+
+Run bullsAndCowsBot.py or bullsAndCows.py in your computer, RPi,...
+"""
 
 # Importo la función random de la libreria
 import random

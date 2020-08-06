@@ -2,12 +2,21 @@
 # -*- coding: utf-8 -*-
 
 """
-First, a few callback functions are defined. Then, those functions are passed to
-the Dispatcher and registered at their respective places.
-Then, the bot is started and runs until we choose to stop or win the game.
+bullsAndCowsBot.py
+
+The script generates a 4-digits number. The digits must be all different.
+
+Then the player try to guess the number who gives the number of matches.
+If the matching digits are in their right positions, they are "bulls"
+("muertos" in this version), if in different positions, they are "cows"
+("heridos" in this version).
+
 Usage:
-Game based in a Telegram conversation.
-Send /start to initiate the conversation.
+Clone the repository.
+
+Modify auth.py with you Telegram Bot configuration if you want to use the Telegram version.
+
+Run bullsAndCowsBot.py or bullsAndCows.py in your computer, RPi,...
 """
 
 import logging, random
